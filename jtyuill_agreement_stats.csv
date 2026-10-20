@@ -1,0 +1,6 @@
+Field;PercentAgree_Pre;PercentAgree_Post;CohenKappa_Pre;CohenKappa_Post;NumDisagreements;NumResolved;Notes
+HasRecovered;90.0;100.0;0.459;1.0;2;2;One disagreement per side: hapcut2 (unmerged PR merge refs counted as recovery) and tfjs (whether a 1-month gap counts). Resolved by counting only default-branch work and applying the guide literally to short gaps.
+WhyRecovered;85.0;100.0;NA;NA;3;3;"Free-text; disagreements followed HasRecovered (hapcut2) or the gap boundary (CascadeStudio cited 2026 work after the recorded gap ended). Resolved by tying the reason to the first post-gap commits."
+ActivityPattern;75.0;100.0;0.615;1.0;5;5;"Most disagreement: rising vs irregular and U-shaped vs declining. Authors weighted recent years; validator weighted the whole series and gap count. Category definitions overlap."
+Currentstatus;95.0;100.0;0.828;1.0;1;1;Only CascadeStudio differed: author used 2026 activity instead of the fixed 2025-09-30 cutoff. Resolved by applying the codebook date.
+RecentThemes;50.0;100.0;NA;NA;10;10;Lowest pre-agreement. Main cause was the commit window (latest WoC records incl. unmerged Dependabot branches and post-cutoff 2026 commits vs. default-branch commits) plus Other vs Bug fixes for lint/build work.
